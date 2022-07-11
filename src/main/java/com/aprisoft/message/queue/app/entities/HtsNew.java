@@ -1,7 +1,6 @@
 package com.aprisoft.message.queue.app.entities;
 
 import com.aprisoft.message.queue.app.entities.subhts.*;
-import com.aprisoft.spring_messaging.entities.subhts.*;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;

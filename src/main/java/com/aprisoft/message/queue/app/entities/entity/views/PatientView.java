@@ -3,7 +3,6 @@ package com.aprisoft.message.queue.app.entities.entity.views;
 import com.aprisoft.message.queue.app.entities.Facility;
 import com.aprisoft.message.queue.app.entities.Patient;
 import com.aprisoft.message.queue.app.entities.enumerations.ClientStatus;
-import com.aprisoft.spring_messaging.entities.*;
 import com.blazebit.persistence.view.EntityView;
 import com.blazebit.persistence.view.Mapping;
 import com.fasterxml.jackson.databind.JsonNode;

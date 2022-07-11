@@ -226,6 +226,10 @@ public class Patient extends TransactionEntity implements Serializable {
 
     @OneToMany(cascade = CascadeType.REMOVE, mappedBy = "patient")
     @JsonIgnore
+    private List<Biometric> biometrics;
+
+    @OneToMany(cascade = CascadeType.REMOVE, mappedBy = "patient")
+    @JsonIgnore
     private List<RegimenHistory> regimenHistories;
 
     @OneToMany(cascade = {CascadeType.REMOVE, CascadeType.PERSIST}, mappedBy = "patient")

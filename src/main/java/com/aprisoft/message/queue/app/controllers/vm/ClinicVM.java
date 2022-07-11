@@ -1,6 +1,6 @@
 package com.aprisoft.message.queue.app.controllers.vm;
 
-import com.aprisoft.spring_messaging.entities.*;
+import com.aprisoft.message.queue.app.entities.*;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.JsonNode;
 import lombok.AllArgsConstructor;

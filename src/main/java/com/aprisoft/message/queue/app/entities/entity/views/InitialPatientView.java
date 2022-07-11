@@ -2,7 +2,6 @@ package com.aprisoft.message.queue.app.entities.entity.views;
 
 import com.aprisoft.message.queue.app.entities.*;
 import com.aprisoft.message.queue.app.entities.enumerations.ClientStatus;
-import com.aprisoft.spring_messaging.entities.*;
 import com.blazebit.persistence.view.*;
 import com.fasterxml.jackson.databind.JsonNode;
 
@@ -106,7 +105,9 @@ public interface InitialPatientView extends Facility.FacilityView {
 
     // Set<ChronicCareView> getChronicCares();
 
-    Set<ChronicCare.InitialChronicCareView> getChronicCares();
+    // Set<ChronicCare.InitialChronicCareView> getChronicCares();
+
+    Set<Biometric.InitialBiometricView> getBiometrics();
 
 
 }

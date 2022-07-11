@@ -2,7 +2,6 @@ package com.aprisoft.message.queue.app.entities.entity.views;
 
 import com.aprisoft.message.queue.app.entities.ChronicCareDM;
 import com.aprisoft.message.queue.app.entities.ChronicCareTB;
-import com.aprisoft.spring_messaging.entities.*;
 import com.blazebit.persistence.view.Mapping;
 
 import java.time.LocalDate;

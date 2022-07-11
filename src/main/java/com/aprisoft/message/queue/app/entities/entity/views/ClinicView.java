@@ -4,7 +4,7 @@ import com.aprisoft.message.queue.app.entities.Adhere;
 import com.aprisoft.message.queue.app.entities.Clinic;
 import com.aprisoft.message.queue.app.entities.ClinicAdverseDrugReaction;
 import com.aprisoft.message.queue.app.entities.OpportunisticInfection;
-import com.aprisoft.spring_messaging.entities.*;
+import com.aprisoft.message.queue.app.entities.*;
 import com.blazebit.persistence.view.EntityView;
 import com.blazebit.persistence.view.Mapping;
 import com.blazebit.persistence.view.MappingSingular;

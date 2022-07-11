@@ -4,8 +4,6 @@ import com.aprisoft.message.queue.app.entities.DataSync;
 import com.aprisoft.message.queue.app.entities.Patient;
 import com.aprisoft.message.queue.app.entities.entity.views.InitialPatientView;
 import com.aprisoft.message.queue.app.repositories.FacilityRepository;
-import com.aprisoft.spring_messaging.entities.*;
-import com.aprisoft.spring_messaging.entities.entity.views.*;
 import com.aprisoft.message.queue.app.repositories.DataSyncRepository;
 import com.aprisoft.message.queue.app.repositories.PatientRepository;
 import com.aprisoft.message.queue.app.services.SyncTableService;

@@ -2,7 +2,7 @@ package com.aprisoft.message.queue.app.repositories;
 
 
 import com.aprisoft.message.queue.app.entities.*;
-import com.aprisoft.spring_messaging.entities.*;
+import com.aprisoft.message.queue.app.entities.*;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

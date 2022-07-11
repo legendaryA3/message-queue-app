@@ -78,5 +78,23 @@ public class Biometric implements Serializable, Persistable<String> {
     @EntityView(Biometric.class)
     public interface InitialBiometricView{
 
+        String getId();
+        Facility.FacilityView getFacility();
+        byte[] getTemplate();
+
+        String getBiometricType();
+
+        String getTemplateType();
+
+        LocalDate getDate();
+
+        Boolean getArchived();
+
+        Boolean getIso();
+
+        LocalDateTime getLastModified();
+
+        JsonNode getExtra();
+
     }
 }
